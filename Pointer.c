@@ -3,8 +3,8 @@
 int main()
 {
 int Num=10;
-int *ptr=$Num;
-int **p2p=$ptr;
+int *ptr=&Num;
+int **p2p=&ptr;
 printf("\nValue at Num =%d",Num);
 printf("\nValue at *ptr =%d",*ptr);
 printf("\nValue at **p2p =%d",**p2p);
