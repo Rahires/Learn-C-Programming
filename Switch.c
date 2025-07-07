@@ -6,8 +6,8 @@ int Num;
 int Operation;
 printf("\nEnter a number.....");
 scanf("\n%d",&Num);
-printf("\nselect operation you want to perform.....");
 printf("\n1...square \n2....Cube");
+printf("\nselect operation you want to perform.....");
 scanf("\n%d",&Operation);
 switch(Operation)
 {
